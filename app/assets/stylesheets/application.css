@@ -13,3 +13,61 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+ }
+
+ h1 {
+  margin-top: 0px;
+  padding-top: 20px;
+  color: white;
+ }
+
+ .my-container {
+  background-image: linear-gradient(to right, rgba(80,80,80,0.8), rgba(140,140,210,0.6)), url("Harbaugh.jpeg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+ }
+
+ #navbar {
+  background-color: rgb(230,230,230);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0px 20px;
+  padding-top: 20px;
+  position: fixed;
+  width: 100vw;
+ }
+
+ #socials {
+  width: 150px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.form-control {
+  width: 50%;
+  margin: 0 auto;
+}
+
+body > div.my-container > form > input.form-control.input {
+  margin-top: 20px;
+}
+
+body > div.my-container > form > input.btn.btn-primary.mb-2.form-control {
+  margin-top: 20px;
+}
+
+.btn-warning {
+  margin-top: 20px;
+}
